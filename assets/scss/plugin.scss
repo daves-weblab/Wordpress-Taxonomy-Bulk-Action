@@ -1,0 +1,59 @@
+@import "compass/css3";
+
+.wp-list-table.dwl-visible {
+  width: 70% !important;
+  float: left;
+}
+
+.dwl-plugin-container {
+  width: 30%;
+  float: right;
+
+  .dwl-floating-box {
+    display: none;
+    max-height: 350px;
+    overflow-y: auto;
+    overflow-x: auto;
+    padding-left: 15px;
+    box-sizing: border-box;
+
+    &.dwl-visible {
+      display: block;
+    }
+
+    .wp-filter {
+      margin-top: 0;
+    }
+
+    .dwl-checklist {
+      background: white;
+
+      li {
+        list-style: none;
+
+        & > ul {
+          padding-left: 20px;
+          margin: 0;
+        }
+      }
+    }
+
+    .dwl-actions {
+      background: darken(white, 1%);
+
+      button {
+        margin-right: 10px;
+
+        &:last-of-type {
+          margin-right: 0;
+        }
+      }
+    }
+
+    .dwl-checklist, .dwl-actions {
+      padding: 15px;
+      @include box-shadow(0 1px 1px rgba(0, 0, 0, .04));
+      border: 1px solid #e5e5e5;
+    }
+  }
+}

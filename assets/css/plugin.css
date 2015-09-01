@@ -1,0 +1,61 @@
+/* line 3, ../scss/plugin.scss */
+.wp-list-table.dwl-visible {
+  width: 70% !important;
+  float: left;
+}
+
+/* line 8, ../scss/plugin.scss */
+.dwl-plugin-container {
+  width: 30%;
+  float: right;
+}
+/* line 12, ../scss/plugin.scss */
+.dwl-plugin-container .dwl-floating-box {
+  display: none;
+  max-height: 350px;
+  overflow-y: auto;
+  overflow-x: auto;
+  padding-left: 15px;
+  box-sizing: border-box;
+}
+/* line 20, ../scss/plugin.scss */
+.dwl-plugin-container .dwl-floating-box.dwl-visible {
+  display: block;
+}
+/* line 24, ../scss/plugin.scss */
+.dwl-plugin-container .dwl-floating-box .wp-filter {
+  margin-top: 0;
+}
+/* line 28, ../scss/plugin.scss */
+.dwl-plugin-container .dwl-floating-box .dwl-checklist {
+  background: white;
+}
+/* line 31, ../scss/plugin.scss */
+.dwl-plugin-container .dwl-floating-box .dwl-checklist li {
+  list-style: none;
+}
+/* line 34, ../scss/plugin.scss */
+.dwl-plugin-container .dwl-floating-box .dwl-checklist li > ul {
+  padding-left: 20px;
+  margin: 0;
+}
+/* line 41, ../scss/plugin.scss */
+.dwl-plugin-container .dwl-floating-box .dwl-actions {
+  background: #fcfcfc;
+}
+/* line 44, ../scss/plugin.scss */
+.dwl-plugin-container .dwl-floating-box .dwl-actions button {
+  margin-right: 10px;
+}
+/* line 47, ../scss/plugin.scss */
+.dwl-plugin-container .dwl-floating-box .dwl-actions button:last-of-type {
+  margin-right: 0;
+}
+/* line 53, ../scss/plugin.scss */
+.dwl-plugin-container .dwl-floating-box .dwl-checklist, .dwl-plugin-container .dwl-floating-box .dwl-actions {
+  padding: 15px;
+  -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+  border: 1px solid #e5e5e5;
+}
